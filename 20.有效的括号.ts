@@ -7,9 +7,6 @@
 // @lc code=start
 function isValid(str: string): boolean {
   const leftMapping = {
-    '(': ')',
-    '{': '}',
-    '[': ']',
     ')': '(',
     '}': '{',
     ']': '['
