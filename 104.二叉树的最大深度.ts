@@ -20,9 +20,9 @@
 // }
 
 function maxDepth(root: TreeNode | null): number {
-  if (!root) return 0
+  // if (!root) return 0
 
-  if (root && !root.left && !root.right) return 1
+  // if (root && !root.left && !root.right) return 1
 
   const traverseDeep = (node: TreeNode | null, depth = 0) => {
     if (!node) return depth
